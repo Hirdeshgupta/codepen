@@ -1,0 +1,73 @@
+body{
+    background: #f8f9fa;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.toggle{
+    background: #28a745;
+    color: white;
+}
+
+.btn-light.focus, .btn-light:focus {
+    color: #212529;
+    border: 0px;
+    box-shadow:0 0 0;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+}
+h4{
+    padding: 5px 0 5px 0;
+    background: #dee3de;
+    color: #343a40;
+    margin-bottom: 0px;
+}
+.editor{
+    border-right: 1px solid #a9a9a9; 
+
+}
+textarea{
+    width: 100%;
+    height: 70vh;
+    color:#343a40;
+    font-size: 1.25rem;
+    resize: none;
+}
+textarea:focus{
+background: #DEE3DE;
+}
+iframe{
+    background: white;
+    width: 100%;
+    height: 70vh;
+}
+.bottom{
+    height: 25vh;
+    background: #343a40;
+    position: absolute;
+}
+
+#outputbtn{
+    margin-left: 43%;
+}
+@media(max-width:590px){
+    #outputbtn{
+        margin-left: 30%;
+        margin-top: 12px
+    }
+    textarea{
+        font-size: 0.75rem;
+        padding-left: 100px;
+
+    }
+
+}
+@media(max-width:768px){
+    body{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    }
+
+}

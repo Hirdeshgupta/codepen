@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Testert</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d18e4c48d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <!-- -------------------------------NAV BAR----------------------------------------------------- -->
+    <nav class="navbar  navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="fas fa-code fa-lg"></i> Code Tester</a>
+        <div class="my-0">
+            <button class="button toggle my-0" id="htmlbtn" type="submit">HTML</button>
+            <button class="button toggle  my-0" id="cssbtn" type="submit">CSS</button>
+            <button class="button toggle my-0" id="jsbtn" type="submit">JAVASCRIPT</button>
+        </div>
+    </nav>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------CODE EDITORS--------------------------------------------------- -->
+    <div class="container-fluid px-0">
+        <div class="row">
+            <div class="col-md-3 col-4 p-0 editor" id="htmlpanel">
+                <div class="container-fluid pr-0">
+                    <h4>HTML</h4>
+                    <textarea id="htmltextarea" class="p-0 text" cols="" rows="" placeholder="Hey There!!!!
+                        Put our HTML here i will generate your result and remember to click the TESTER ON/OFF button to see the result you can click on upper html button to hide me"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 col-4 p-0 editor" id="csspanel">
+                <div class="container-fluid p-0">
+                    <h4 class="pl-3">CSS</h4>
+                    <textarea id="csstextarea" class="p-0 text" cols="" rows="" placeholder="Hey There!!!!
+                        Put our CSS here i will generate your result and remember to click the TESTER ON/OFF button to see the result you can click on upper css button to hide me"></textarea>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-4 p-0 editor" id="jspanel">
+                <div class="container-fluid p-0">
+                    <h4 class="pl-3">JAVASCRIPT</h4>
+                    <textarea id="jstextarea" class="p-0 text" cols="" rows="" placeholder="Hey There!!!!
+                        Put our JAVASCRIPT here i will generate your result and remember to click the TESTER ON/OFF button to see the result you can click on upper javascript button to hide me"></textarea>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-12 p-0 editor" id="outputpanel">
+                <div class="container-fluid p-0">
+                    <h4 class="pl-3">OUTPUT</h4>
+                    <iframe id="frame" class="pl-2"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; background: #343a40; height: 25vh;">
+        <button id="outputbtn" class="bottombutton mt-4 mt-sm-3" style=" padding: 10px; border-radius: 10px; margin-top: 12px; font-size: 1.25rem;">TESTER ON/OFF</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
