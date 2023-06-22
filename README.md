@@ -29,6 +29,8 @@ Here're some of the project's best features:
 ```
 git clone https://github.com/Hirdeshgupta/codepen.git
 ```
+<p>2. Open index.html file in your browser and editor</p>
+
 
 
 <h2>🍰 Contribution Guidelines:</h2>
